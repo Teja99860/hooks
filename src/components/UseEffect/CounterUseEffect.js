@@ -13,12 +13,12 @@ const CounetrUseEffect = () => {
 
   // useEffect case 02 - with empty dependency - re-render the component only onceon the 1st state change -> render only once.
 
-  //case 3 - with dependency -> re-renders the component when ever state passed in dependency array are changed. 
+  //case 3 - with dependency -> re-renders the component when ever state passed in dependency array are changed.
   useEffect(() => {
     setInterval(() => {
       setCount(count + 1);
     }, 2000);
-  }, [count]);
+  }, []);
   console.log(count);
 
   //   const handleClick = () => {
