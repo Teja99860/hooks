@@ -1,10 +1,10 @@
 import "./App.css";
-import SelectDomElement from "./components/UseRef/SelectDomElement";
+import CubeANumber from "./components/UseMemo/Cube";
 
 function App() {
   return (
     <>
-      <SelectDomElement />;
+      <CubeANumber />
     </>
   );
 }
